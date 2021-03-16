@@ -2,4 +2,54 @@ $theme-colors: (
     'primary': #0091ea //Covalence Blue!  :D
 );
 
+.header {
+    background-color: #141B41;
+    color: #F6FDFE;
+    font-family: 'Baloo Chettan 2', cursive;
+  }
+  
+  .card {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  hr {
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #username {
+    margin-bottom: 10px;
+  }
+
+  #adminButton {
+    color: #EEF7FD; 
+    background-color: #141B41;
+    float: right;
+  }
+
+  #addChirp {
+    color: #EEF7FD; 
+    background-color: #141B41;
+    float: right;
+  }
+
+  #editChirp {
+    color: #EEF7FD; 
+    background-color: #141B41;
+    float: left;
+  }
+
+  #deleteChirp {
+    color: #EEF7FD; 
+    background-color: #141B41;
+    float: right;
+  }
+
+  .link {
+    color: #F6FDFE;
+    margin: 30px;
+  }
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
